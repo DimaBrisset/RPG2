@@ -40,8 +40,10 @@
           <e p="EnemyMovement.cs" t="Include" />
           <e p="Finish.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
+          <e p="MenuScreen.cs" t="Include" />
           <e p="PlatformPointsGo.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="SceneLoader.cs" t="Include" />
         </e>
         <e p="Sprites" t="Include">
           <e p="Aliens" t="Include" />
