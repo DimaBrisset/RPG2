@@ -4,32 +4,43 @@ using Random = UnityEngine.Random;
 
 public class AreaPotrolPointsGo : MonoBehaviour
 {
-  public float speed;
-  public Transform[] moveSpot;
-  public float startWaitTime;
-  private int randomSpot;
-  private float waitTime;
+  [SerializeField] private float _speed=5f;
+  [SerializeField] private Transform[] _moveSpot;
+  [SerializeField] private float startWaitTime=1f;
+  
+  private int _randomSpot;
+  private float _waitTime;
   
   private void Start()
   {
-    randomSpot = Random.Range(0, moveSpot.Length);
-    waitTime = startWaitTime;
+  RandomUpdate();
   }
 
   private void Update()
   {
-    transform.position = Vector3.MoveTowards(transform.position, moveSpot[randomSpot].position, speed * Time.deltaTime);
-    if (Vector2.Distance(transform.position, moveSpot[randomSpot].position) <= 0.2)
+   MovedByPointsEnemy();
+  }
+
+
+  private void MovedByPointsEnemy()
+  {
+    transform.position = Vector3.MoveTowards(transform.position, _moveSpot[_randomSpot].position, _speed * Time.deltaTime);
+    if (!(Vector2.Distance(transform.position, _moveSpot[_randomSpot].position) <= 0.2)) return;
+    if (_waitTime <= 0)
     {
-      if (waitTime <= 0)
-      {
-        randomSpot = Random.Range(0, moveSpot.Length);
-        waitTime = startWaitTime;
-      }
-      else
-      {
-        waitTime -= Time.deltaTime;
-      }
+      _randomSpot = Random.Range(0, _moveSpot.Length);
+      _waitTime = startWaitTime;
+    }
+    else
+    {
+      _waitTime -= Time.deltaTime;
     }
   }
+
+  private void RandomUpdate()
+  {
+    _randomSpot = Random.Range(0, _moveSpot.Length);
+    _waitTime = startWaitTime;
+  }
+  
 }

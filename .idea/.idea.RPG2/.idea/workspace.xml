@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinPick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,9 +24,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMoveComp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AreaPotrolPointsGo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinPick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AreaPotrolPointsGo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +73,7 @@
       <workItem from="1685970257303" duration="8240000" />
       <workItem from="1685986784528" duration="1038000" />
       <workItem from="1686040345959" duration="2212000" />
+      <workItem from="1686043373646" duration="2858000" />
     </task>
     <servers />
   </component>

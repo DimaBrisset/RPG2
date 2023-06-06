@@ -1,9 +1,11 @@
 using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public TMP_Text HealthText;
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private LayerMask _whatIsGround;
     [SerializeField] private float _extraJumpValue;
@@ -24,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _health = MAX_HEALTH;
+        HealthText.text = _health.ToString();
+        
     }
 
 
@@ -66,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision2D.gameObject.GetComponent<EnemyMovement>())
         {
             _health -= 1;
+            HealthText.text = _health.ToString();
         }
 
         if (_health < 1)
