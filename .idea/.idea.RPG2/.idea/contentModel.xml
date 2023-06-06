@@ -36,6 +36,7 @@
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
           <e p="CoinPick.cs" t="Include" />
+          <e p="DeathPlatform.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
           <e p="Finish.cs" t="Include" />
           <e p="Menu.cs" t="Include" />

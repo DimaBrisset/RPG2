@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinPick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeathPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Finish.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -28,6 +29,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FinishLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinPick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeathPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
@@ -79,6 +81,7 @@
       <workItem from="1686051249466" duration="1447000" />
       <workItem from="1686052722524" duration="5000" />
       <workItem from="1686052783152" duration="2634000" />
+      <workItem from="1686055889894" duration="3133000" />
     </task>
     <servers />
   </component>

@@ -77,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(gameObject);
             await Task.Delay(3000);
+            CoinPick.Coins = 0;
             SceneManager.LoadSceneAsync(0);
         }
     }
