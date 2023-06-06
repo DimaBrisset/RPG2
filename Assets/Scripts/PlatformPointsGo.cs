@@ -1,12 +1,17 @@
 using System;
+using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
-public class AreaPotrolPointsGo : MonoBehaviour
+public class PlatformPointsGo : MonoBehaviour
 {
+
   [SerializeField] private float _speed=5f;
   [SerializeField] private Transform[] _moveSpot;
   [SerializeField] private float startWaitTime=1f;
+
   
   private int _randomSpot;
   private float _waitTime;
@@ -19,6 +24,7 @@ public class AreaPotrolPointsGo : MonoBehaviour
   private void Update()
   {
    MovedByPointsEnemy();
+  
   }
 
 
@@ -42,5 +48,7 @@ public class AreaPotrolPointsGo : MonoBehaviour
     _randomSpot = Random.Range(0, _moveSpot.Length);
     _waitTime = startWaitTime;
   }
+
+  
   
 }

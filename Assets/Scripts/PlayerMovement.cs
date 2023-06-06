@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _checkRadius;
     [SerializeField] private float _jumpForce;
     [SerializeField] private int _health;
-
     private Vector2 _moveInput;
     private bool _facingRight = true;
     private Rigidbody2D _rigidbody2D;
@@ -71,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _health -= 1;
             HealthText.text = _health.ToString();
+           
         }
 
         if (_health < 1)

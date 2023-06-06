@@ -34,11 +34,12 @@
         <e p="Resources" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
-          <e p="AreaPotrolPointsGo.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
           <e p="CoinPick.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
+          <e p="Finish.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
+          <e p="PlatformPointsGo.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
         </e>
         <e p="Sprites" t="Include">

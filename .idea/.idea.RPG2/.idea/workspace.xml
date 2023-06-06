@@ -14,7 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinPick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AreaPotrolPointsGo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Finish.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -24,8 +24,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMoveComp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoinPick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AreaPotrolPointsGo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FinishLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoinPick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
@@ -73,7 +75,10 @@
       <workItem from="1685970257303" duration="8240000" />
       <workItem from="1685986784528" duration="1038000" />
       <workItem from="1686040345959" duration="2212000" />
-      <workItem from="1686043373646" duration="2858000" />
+      <workItem from="1686043373646" duration="6115000" />
+      <workItem from="1686051249466" duration="1447000" />
+      <workItem from="1686052722524" duration="5000" />
+      <workItem from="1686052783152" duration="2634000" />
     </task>
     <servers />
   </component>
@@ -86,9 +91,19 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1685986047880">
+    <state x="2254" y="108" width="900" height="860" key="dock-window-1" timestamp="1686053112095">
+      <screen x="1920" y="-45" width="1920" height="1032" />
+    </state>
+    <state x="2062" y="-33" width="900" height="860" key="dock-window-1/0.0.1920.1032/1920.-45.1920.1032@0.0.1920.1032" timestamp="1686052727129" />
+    <state x="2254" y="108" width="900" height="860" key="dock-window-1/0.0.1920.1032/1920.-45.1920.1032@1920.-45.1920.1032" timestamp="1686053112095" />
+    <state x="125" y="339" width="1529" height="1019" key="dock-window-2" timestamp="1686052078306">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.-45.1920.1032@0.0.1920.1032" timestamp="1685986047880" />
+    <state x="125" y="339" width="1529" height="1019" key="dock-window-2/0.0.1920.1032/1920.-45.1920.1032@0.0.1920.1032" timestamp="1686052078306" />
+    <state x="1912" y="-53" width="1529" height="1019" maximized="true" key="dock-window-2/0.0.1920.1032/1920.-45.1920.1032@1920.-45.1920.1032" timestamp="1686051129361" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1686053748580">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.-45.1920.1032@0.0.1920.1032" timestamp="1686053748580" />
   </component>
 </project>

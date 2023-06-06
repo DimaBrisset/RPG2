@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using Sequence = DG.Tweening.Sequence;
@@ -9,14 +10,19 @@ using Sequence = DG.Tweening.Sequence;
 
 public class EnemyMovement : MonoBehaviour
 {
-    private EnemyMovement _enemy;
-    private Sequence _sequence;
-    private Bullet _bullet;
-    private const int MAX_HEALTH=100;
+    
     [SerializeField] private Transform _startPoint;
     [SerializeField] private Transform _endPoint;
     [SerializeField] private float _speed = 5f;
     [SerializeField] private int _health = 20;
+    
+    private EnemyMovement _enemy;
+    private Sequence _sequence;
+    private Bullet _bullet;
+    private const int MAX_HEALTH=100;
+    
+   
+
     private void Start()
     {
         _health = MAX_HEALTH;
