@@ -10,6 +10,7 @@ public class Finish : MonoBehaviour
    {
       if (collision.tag=="Player" && CoinPick.Coins>=10)
       {
+         CoinPick.Coins = 0;
          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
       }
      
